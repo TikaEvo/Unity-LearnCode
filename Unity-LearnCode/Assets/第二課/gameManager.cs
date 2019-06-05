@@ -20,6 +20,7 @@ public class gameManager : MonoBehaviour
         Debug.Log("士兵經驗值 -  設定" + SoldierA.exp);
 
         //以property屬性寫法
+        //20190605還有問題
         WarriorA.lv = 50;
         Debug.Log("戰士經驗值 - 取得" + WarriorA.Exp);
 

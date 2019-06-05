@@ -15,8 +15,7 @@ public class warrior : MonoBehaviour
     {
         get
         {
-            exp = lv * 10;
-            return exp;
+            return lv * 10;
         }
         set
         {
@@ -25,3 +24,4 @@ public class warrior : MonoBehaviour
     }
     #endregion
 }
+//20190605還有問題
