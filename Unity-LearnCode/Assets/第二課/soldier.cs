@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
 
 [System.Serializable]//序列化
+
 public class soldier
 {
+    #region 欄位
     public int exp; //經驗值
     public int lv;  //等級
+    #endregion
 
+    #region 方法
     /// <summary>
     /// 設定經驗值，計算經驗值為:等級 乘以 10
     /// </summary>
@@ -24,4 +28,5 @@ public class soldier
     {
         exp = getExp;
     }
+    #endregion
 }
