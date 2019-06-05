@@ -5,16 +5,30 @@ using UnityEngine;         //引用API
 [System.Serializable]//序列化屬性之類別可組織在面板上
 public class dog
 {
-    #region 欄位(region裡寫的東西不影響程式)
+    #region 欄位
     public string name;
     public float weight;
     public string type;
-    public string sex;
     public string color;
-    public int age;
+
+    private string sex;
+    private int age;
     #endregion
 
-    #region 方法(region裡寫的東西不影響程式)
+    #region 建構函式
+    // 建構函式可以多載
+    public dog()
+    {
+    }
+
+    public dog(string sex,int age)
+    {
+        this.sex = sex;
+        this.age = age;
+    }
+    #endregion
+
+    #region 方法
     /// <summary>
     /// 狗狗亂叫的方法
     /// </summary>
