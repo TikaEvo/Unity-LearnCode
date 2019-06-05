@@ -43,8 +43,8 @@ public class dog
     /// <summary>
     ///  狗狗吃東西的方法。
     /// </summary>
-    /// <param name="food"></param>
-    /// <param name="count"></param>
+    /// <param name="food">食物</param>
+    /// <param name="count">份量</param>
     public void Eat(string food, int count)
     {
         Debug.Log(name + ":" + food + " ，份量:" + count);
