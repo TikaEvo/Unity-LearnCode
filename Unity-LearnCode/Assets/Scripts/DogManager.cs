@@ -19,12 +19,15 @@ public class DogManager : MonoBehaviour
         DogA.color = "咖啡";
         DogA.age = 7;
 
-        DogB.name = "鬼挖";
-        DogB.weight = 30.5f;
-        DogB.type = "貴賓";
-        DogB.sex = "公";
-        DogB.color = "咖啡";
-        DogB.age = 7;
+        DogB.name = "掐及";
+        DogB.weight = 5.8f;
+        DogB.type = "及哇哇";
+        DogB.sex = "母";
+        DogB.color = "白";
+        DogB.age = 3;
+
+        Debug.Log(DogA.name + "品種:" + DogA.type + "顏色:" + DogA.color);
+        Debug.Log(DogB.name + "品種:" + DogB.type + "顏色:" + DogB.color);
     }
     #endregion
 }
