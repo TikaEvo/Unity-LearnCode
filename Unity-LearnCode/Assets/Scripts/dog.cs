@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;         //引用API
 
+[System.Serializable]//序列化屬性之類別可組織在面板上
 public class dog
 {
     #region 欄位1111111111111111111111111111111111
