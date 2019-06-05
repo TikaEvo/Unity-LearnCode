@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[System.Serializable]//序列化
 public class soldier
 {
     public int exp; //經驗值
