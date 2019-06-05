@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DogManager : MonoBehaviour
 {
-    #region 欄位
+    #region 欄位(region裡寫的東西不影響程式)
     public dog DogA = new dog();
     public dog DogB = new dog();
     #endregion
 
-    #region 事件
+    #region 事件(region裡寫的東西不影響程式)
     private void Start()
     {
         DogA.name = "鬼挖";

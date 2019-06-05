@@ -5,7 +5,7 @@ using UnityEngine;         //引用API
 [System.Serializable]//序列化屬性之類別可組織在面板上
 public class dog
 {
-    #region 欄位1111111111111111111111111111111111
+    #region 欄位(region裡寫的東西不影響程式)
     public string name;
     public float weight;
     public string type;
@@ -14,7 +14,7 @@ public class dog
     public int age;
     #endregion
 
-    #region 方法222222222222222222222222222222222222
+    #region 方法(region裡寫的東西不影響程式)
     /// <summary>
     /// 狗狗亂叫的方法
     /// </summary>
