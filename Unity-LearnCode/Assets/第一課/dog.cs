@@ -19,6 +19,7 @@ public class dog
     // 建構函式可以多載
     public dog()
     {
+
     }
 
     public dog(string sex,int age)
@@ -34,7 +35,7 @@ public class dog
     /// </summary>
     public void Bark()
     {
-        Debug.Log(name + ": 汪汪!!");
+        Debug.Log(age + ": 汪汪!!"+sex);
     }
     /// <summary>
     /// 轉換狗狗年齡的方法。

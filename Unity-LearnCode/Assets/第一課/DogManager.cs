@@ -5,7 +5,7 @@ using UnityEngine;
 public class DogManager : MonoBehaviour
 {
     #region 欄位
-    public dog DogA = new dog("公",7);
+    public dog DogA = new dog("小白",7);
     public dog DogB = new dog("母",3);
     #endregion
 
@@ -37,6 +37,8 @@ public class DogManager : MonoBehaviour
 
         DogA.Eat("熱狗");
         DogB.Eat("蛋糕",10);
+
+
     }
     #endregion
 }
